@@ -1,0 +1,50 @@
+# negocio.perguntas — Clínica / Estética (alto volume de dúvidas + agendamento).
+
+[campo]
+placeholder = NOME_NEGOCIO
+valida = valida_nao_vazio
+texto = Qual o nome da sua clínica?
+
+[campo]
+placeholder = O_QUE_VENDE
+valida = valida_nao_vazio
+texto = Em uma ou duas frases: quais procedimentos/serviços você oferece? (ex.: "harmonização facial, limpeza de pele, botox")
+
+[campo]
+placeholder = CLIENTE_IDEAL
+valida = valida_nao_vazio
+texto = Quem é seu paciente ideal? (ex.: "mulheres de 30 a 50 anos da minha cidade")
+
+[campo]
+placeholder = FAIXA_PRECO
+opcional = sim
+default = (sob avaliação)
+texto = Faixa de preço dos procedimentos? (ex.: "de R$ 150 a R$ 1.200") — Enter pula
+
+[campo]
+placeholder = INSTAGRAM_HANDLE
+tipo = instagram
+texto = Qual o @ do Instagram da clínica? (ex.: @minhaclinica)
+
+[menu]
+placeholder = TOM_DE_VOZ_DESCRICAO
+titulo = Como você gosta de falar com o paciente?
+texto = Escolha (1 a N):
+opcao = Acolhedor e profissional | Fale de forma acolhedora e profissional: gentil, segura, sem jargão médico, passando confiança.
+opcao = Próximo e leve | Fale de forma leve e próxima, acessível, como uma amiga que entende do assunto.
+opcao = Sóbrio e direto | Fale de forma sóbria, objetiva e elegante, transmitindo seriedade clínica.
+outro = sim
+
+[campo]
+placeholder = RESTRICOES
+opcional = sim
+default = Nunca confirmar horário nem remarcar sem o dono validar a agenda.
+texto = Tem algo que o agente NUNCA deve fazer ou prometer? (ex.: "nunca garantir resultado") — Enter pula
+
+[menu]
+placeholder = REGRA_PRECO
+titulo = Quando alguém pergunta preço ou quer marcar, o que o agente deve fazer?
+texto = Escolha (1 a N):
+opcao = Convidar para avaliação no Direct/WhatsApp | Não passe valores no comentário; explique que o valor depende da avaliação e convide a pessoa para agendar uma avaliação no Direct ou WhatsApp.
+opcao = Passar a faixa e convidar pra avaliação | Pode citar a faixa de preço acima como referência e, em seguida, convidar para uma avaliação no Direct ou WhatsApp.
+opcao = Avisar você antes | Não responda valores nem agende sozinho: avise o dono no Telegram e aguarde antes de dar qualquer informação.
