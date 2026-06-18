@@ -38,7 +38,7 @@ outro = sim
 [campo]
 placeholder = RESTRICOES
 opcional = sim
-default = Nunca confirmar horário nem remarcar sem o dono validar a agenda.
+default = Nunca prometer resultado de procedimento nem dar desconto sem o dono aprovar.
 texto = Tem algo que o agente NUNCA deve fazer ou prometer? (ex.: "nunca garantir resultado") — Enter pula
 
 [menu]
